@@ -1,0 +1,334 @@
+:root {
+    --admin-bg: #f4f7fc;
+    --admin-sidebar: #0c3caa;
+    --admin-line: #e2e9f4;
+    --blue: #1456d9;
+    --blue2: #0c3caa;
+    --ink: #14233b;
+    --muted: #68768b;
+}
+
+.admin-body {
+    margin: 0;
+    background: var(--admin-bg);
+    font-family: 'DM Sans', sans-serif;
+    color: var(--ink);
+}
+
+.admin-topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 12px 24px;
+    background: #fff;
+    border-bottom: 1px solid var(--admin-line);
+}
+
+.admin-brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: Manrope, sans-serif;
+    font-weight: 800;
+    font-size: 1.05rem;
+}
+
+.admin-brand img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.admin-user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: .9rem;
+    color: var(--muted);
+}
+
+.admin-user form {
+    margin: 0;
+}
+
+.admin-shell {
+    display: flex;
+    align-items: flex-start;
+    min-height: calc(100vh - 66px);
+}
+
+.admin-nav {
+    flex: 0 0 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 20px 14px;
+    background: var(--admin-sidebar);
+    min-height: calc(100vh - 66px);
+}
+
+.admin-nav a {
+    display: block;
+    padding: 10px 14px;
+    border-radius: 10px;
+    color: #dbe7ff;
+    font-size: .9rem;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.admin-nav a:hover,
+.admin-nav a.is-active {
+    background: rgba(255, 255, 255, .14);
+    color: #fff;
+}
+
+.admin-main {
+    flex: 1 1 auto;
+    min-width: 0;
+    padding: 26px 30px 48px;
+}
+
+.admin-title {
+    margin: 0 0 18px;
+    font-size: 1.5rem;
+    font-family: Manrope, sans-serif;
+    font-weight: 800;
+}
+
+.admin-card {
+    background: #fff;
+    border: 1px solid var(--admin-line);
+    border-radius: 14px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.admin-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    gap: 14px;
+    margin-bottom: 22px;
+}
+
+.admin-stat {
+    background: #fff;
+    border: 1px solid var(--admin-line);
+    border-radius: 14px;
+    padding: 16px 18px;
+}
+
+.admin-stat span {
+    display: block;
+    font-size: .75rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.admin-stat strong {
+    font-family: Manrope, sans-serif;
+    font-size: 1.7rem;
+}
+
+.admin-alert {
+    padding: 11px 14px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    font-size: .9rem;
+}
+
+.admin-alert.is-success {
+    background: #e6f7ef;
+    color: #0d6b43;
+    border: 1px solid #bfe8d3;
+}
+
+.admin-alert.is-error {
+    background: #fdecec;
+    color: #9b1c1c;
+    border: 1px solid #f5c6c6;
+}
+
+.admin-btn {
+    display: inline-block;
+    padding: 9px 16px;
+    border: 0;
+    border-radius: 9px;
+    background: var(--blue);
+    color: #fff;
+    font-size: .86rem;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.admin-btn:hover {
+    background: var(--blue2);
+    color: #fff;
+}
+
+.admin-btn-light {
+    background: #eef3fb;
+    color: var(--blue2);
+}
+
+.admin-btn-light:hover {
+    background: #dfe9f9;
+    color: var(--blue2);
+}
+
+.admin-btn-danger {
+    background: #d64545;
+}
+
+.admin-btn-danger:hover {
+    background: #b53333;
+}
+
+.admin-btn-sm {
+    padding: 6px 11px;
+    font-size: .78rem;
+}
+
+.admin-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+}
+
+.admin-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: .9rem;
+}
+
+.admin-table th,
+.admin-table td {
+    padding: 10px 12px;
+    border-bottom: 1px solid var(--admin-line);
+    text-align: left;
+    vertical-align: middle;
+}
+
+.admin-table th {
+    font-size: .72rem;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.admin-table img {
+    width: 64px;
+    height: 48px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.admin-form .admin-field {
+    margin-bottom: 16px;
+}
+
+.admin-form label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: .8rem;
+    font-weight: 700;
+    color: var(--ink);
+}
+
+.admin-form input[type="text"],
+.admin-form input[type="password"],
+.admin-form input[type="date"],
+.admin-form input[type="file"],
+.admin-form select,
+.admin-form textarea {
+    width: 100%;
+    padding: 9px 11px;
+    border: 1px solid #cfdaea;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: .9rem;
+    color: var(--ink);
+    background: #fff;
+}
+
+.admin-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.admin-form textarea.code {
+    min-height: 220px;
+    font-family: Consolas, monospace;
+    font-size: .82rem;
+}
+
+.admin-hint {
+    font-size: .78rem;
+    color: var(--muted);
+    margin-top: 5px;
+}
+
+.admin-login {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 24px;
+    background: linear-gradient(140deg, #eef4ff, #f7f9fc 60%);
+}
+
+.admin-login-card {
+    width: 100%;
+    max-width: 390px;
+    background: #fff;
+    border: 1px solid var(--admin-line);
+    border-radius: 18px;
+    padding: 30px 28px;
+    box-shadow: 0 18px 45px rgba(20, 35, 59, .1);
+}
+
+.admin-login-card img {
+    width: 54px;
+    height: 54px;
+    object-fit: contain;
+    margin-bottom: 12px;
+}
+
+.admin-login-card h1 {
+    margin: 0 0 6px;
+    font-size: 1.35rem;
+}
+
+.admin-login-card p {
+    margin: 0 0 20px;
+    font-size: .85rem;
+    color: var(--muted);
+}
+
+.admin-thumb-none {
+    color: var(--muted);
+    font-size: .78rem;
+}
+
+@media (max-width: 720px) {
+    .admin-shell {
+        flex-direction: column;
+    }
+
+    .admin-nav {
+        flex: 0 0 auto;
+        width: 100%;
+        min-height: 0;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 10px;
+    }
+
+    .admin-main {
+        padding: 20px 16px 40px;
+    }
+}

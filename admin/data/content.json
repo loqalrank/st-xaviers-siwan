@@ -1,0 +1,198 @@
+{
+    "toppers": [
+        {
+            "name": "Anshika Verma",
+            "class": "Class X",
+            "score": "95%",
+            "image": "assets/images/toppers/01_Anshika_Verma.png",
+            "note": "School Topper"
+        },
+        {
+            "name": "Navya Agrawal",
+            "class": "Class X",
+            "score": "92%",
+            "image": "assets/images/toppers/02_Navya_Agrawal.png",
+            "note": "Second Position"
+        },
+        {
+            "name": "Siddhi Kumari",
+            "class": "Class X",
+            "score": "91%",
+            "image": "assets/images/toppers/03_Siddhi_Kumari.png",
+            "note": "Third Position"
+        },
+        {
+            "name": "Om Gaurav",
+            "class": "Class XII",
+            "score": "90%",
+            "image": "assets/images/toppers/04_Om_Gaurav.png",
+            "note": "School Topper"
+        },
+        {
+            "name": "Shristi Anand",
+            "class": "Class XII",
+            "score": "86%",
+            "image": "assets/images/toppers/05_Shristi_Anand.png",
+            "note": "Second Position"
+        },
+        {
+            "name": "Ankit Raj Singh",
+            "class": "Class XII",
+            "score": "85%",
+            "image": "assets/images/toppers/06_Ankit_Raj_Singh.png",
+            "note": "Third Position"
+        }
+    ],
+    "faq_categories": {
+        "about": "About the School",
+        "admissions": "Admissions",
+        "academics": "Academics and Learning",
+        "fees": "Fees and Facilities",
+        "contact": "Contact and Enquiries"
+    },
+    "gallery_categories": {
+        "campus": "School Campus",
+        "classroom": "Classroom Activities",
+        "academic": "Academic Activities",
+        "sports": "Sports and Games",
+        "cultural": "Cultural Events",
+        "celebrations": "Celebrations and Events"
+    },
+    "faq": [
+        {
+            "category": "about",
+            "question": "Where is St. Xavier’s High School located?",
+            "answer": "St. Xavier's High School is located at Baishakhi, Siwan, Bihar. For directions and assistance, please contact the school office.",
+            "answer_html": "St. Xavier's High School is located at:<br>Baishakhi, Siwan, Bihar.<br><br>For directions and assistance, <a href=\"contact.php\">please contact the school office</a>."
+        },
+        {
+            "category": "about",
+            "question": "Which education board is St. Xavier’s High School affiliated with?",
+            "answer": "St. Xavier's High School, Siwan, is affiliated with the Central Board of Secondary Education (CBSE) up to 10+2 Level."
+        },
+        {
+            "category": "admissions",
+            "question": "How can I get admission for my child?",
+            "answer": "Parents can apply for admission by filling out the online enquiry form, contacting the school office via phone or WhatsApp, or visiting the school campus in person for guidance regarding the admission process and required documents. Please confirm the final checklist with the admission office."
+        },
+        {
+            "category": "admissions",
+            "question": "Which classes are open for admission?",
+            "answer": "St. Xavier's High School offers education from Nursery to Class 12. Admission to individual classes is subject to seat availability and the school's admission guidelines."
+        },
+        {
+            "category": "admissions",
+            "question": "What is the minimum age required for Nursery admission?",
+            "answer": "As per NEP 2020 guidelines, the minimum age for Nursery admission is 3 years. The applicable age criteria will be determined according to the school's admission policy and government guidelines."
+        },
+        {
+            "category": "admissions",
+            "question": "What documents are required for admission?",
+            "answer": "Documents may include the child's birth certificate, passport-size photographs, previous academic records (where applicable), transfer certificate (where applicable) and parent or guardian identification. Please confirm the final checklist with the admission office."
+        },
+        {
+            "category": "admissions",
+            "question": "Is there any admission test?",
+            "answer": "For Nursery (Nur) admission, no written admission test is conducted. For admission to all other classes, students are required to appear for an entrance assessment to evaluate their academic knowledge and understanding."
+        },
+        {
+            "category": "academics",
+            "question": "What is the student-teacher ratio?",
+            "answer": "We maintain a student-teacher ratio of 30:1 to ensure individual attention, effective classroom interaction, personalised learning, and proper academic support for every student."
+        },
+        {
+            "category": "academics",
+            "question": "Does the school provide smart classes?",
+            "answer": "Yes, our school provides smart classroom facilities with digital learning tools and audio-visual teaching methods to make lessons more interactive, engaging, and effective. These facilities help students understand concepts better and enhance their overall learning experience."
+        },
+        {
+            "category": "academics",
+            "question": "Are extra classes available for students who need additional academic support?",
+            "answer": "Yes, we provide extra classes, revision sessions, and individual academic guidance for students who need additional support to strengthen their understanding and improve their academic performance."
+        },
+        {
+            "category": "academics",
+            "question": "Does the school organise Olympiads and other competitions?",
+            "answer": "Yes, our school regularly organises and encourages students to participate in various Olympiads, academic competitions, quizzes, cultural events, sports activities, and other inter-school competitions to develop their knowledge, confidence, creativity, and competitive spirit."
+        },
+        {
+            "category": "academics",
+            "question": "How does the school evaluate students' academic performance?",
+            "answer": "Students' academic performance is evaluated through regular assessments, periodic tests, assignments, projects, classroom activities, quizzes, and term examinations. We also monitor students' overall learning progress, skills, and participation, and share their progress with parents through report cards and Parent-Teacher Meetings (PTMs)."
+        },
+        {
+            "category": "fees",
+            "question": "Does the school have a computer laboratory?",
+            "answer": "Yes. The school has a computer laboratory to support students' computer education and technology-related learning."
+        },
+        {
+            "category": "fees",
+            "question": "Is there a well-equipped science laboratory?",
+            "answer": "Yes. The school has a science laboratory to support practical learning, scientific exploration and subject-related activities."
+        },
+        {
+            "category": "fees",
+            "question": "Does the school have a library?",
+            "answer": "Yes. The school has a library that supports students' reading habits, knowledge development and independent learning."
+        },
+        {
+            "category": "fees",
+            "question": "Are indoor and outdoor sports facilities available?",
+            "answer": "The school provides sports and playground facilities to encourage physical fitness, teamwork and participation in sports activities. Please contact the school for details about specific indoor and outdoor sports facilities."
+        },
+        {
+            "category": "fees",
+            "question": "Does the school provide CCTV surveillance?",
+            "answer": "Yes. CCTV security is among the school's facilities and supports campus monitoring and security."
+        },
+        {
+            "category": "fees",
+            "question": "Are extracurricular activities organised?",
+            "answer": "Yes. Students have opportunities to participate in activities such as music, dance, art and craft, along with sports and other school activities."
+        },
+        {
+            "category": "fees",
+            "question": "Does the school provide transport facilities?",
+            "answer": "Yes. School transport facilities are available. Parents can contact the school office for route availability, timings and transport-related information.",
+            "answer_html": "Yes. School transport facilities are available. Parents can <a href=\"contact.php\">contact the school office</a> for route availability, timings and transport-related information."
+        },
+        {
+            "category": "contact",
+            "question": "How can I contact the school office?",
+            "answer": "Parents and visitors can contact the school through the following details: Phone: +91-8000800362, Phone: +91-8000800364, Phone/WhatsApp: +91-8000800368, Email: stxavierssiwan@gmail.com",
+            "answer_html": "Parents and visitors can contact the school through the following details:<br><strong>Phone:</strong> +91-8000800362<br><strong>Phone:</strong> +91-8000800364<br><strong>Phone / WhatsApp:</strong> +91-8000800368<br><strong>Email:</strong> stxavierssiwan@gmail.com"
+        }
+    ],
+    "gallery": [],
+    "admission_popup": {
+        "enabled": true,
+        "auto_open": true,
+        "auto_close_seconds": 180,
+        "pages": [
+            "index.php",
+            "about.php",
+            "academics.php",
+            "admissions.php",
+            "facilities.php",
+            "gallery.php",
+            "blog.php",
+            "blog-detail.php",
+            "contact.php",
+            "faq.php",
+            "messages.php",
+            "mandatory-disclosure.php"
+        ],
+        "image": "assets/images/hero-students.jpg",
+        "logo": "assets/images/school-logo.png",
+        "eyebrow": "Admissions Open",
+        "year": "2026–27",
+        "title": "School",
+        "title_accent": "Admission",
+        "subline": "A strong CBSE foundation with values, discipline and all-round development.",
+        "cta_label": "Call Now"
+    },
+    "site_images": {
+        "home_welcome": "assets/images/uploads/20261120-5b7766889b95.jpg"
+    },
+    "blog": []
+}

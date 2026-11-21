@@ -1,0 +1,6 @@
+# Admin credentials and temporary writes (never commit)
+data/admin.json
+data/*.tmp
+*.zip
+data/leads.json
+data/leads.json.tmp

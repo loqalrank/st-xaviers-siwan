@@ -1,0 +1,75 @@
+# robots.txt - St. Xavier's High School, Siwan
+# Canonical host: https://www.stxavierssiwan.com/
+
+# Search engine crawlers (search indexing only)
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+Disallow: /data/
+Disallow: /includes/
+Disallow: /submit-enquiry.php
+Disallow: /.kilo/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+Disallow: /data/
+Disallow: /includes/
+Disallow: /submit-enquiry.php
+Disallow: /.kilo/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /admin/
+Disallow: /data/
+Disallow: /includes/
+Disallow: /submit-enquiry.php
+Disallow: /.kilo/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /admin/
+Disallow: /data/
+Disallow: /includes/
+Disallow: /submit-enquiry.php
+Disallow: /.kilo/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /admin/
+Disallow: /data/
+Disallow: /includes/
+Disallow: /submit-enquiry.php
+Disallow: /.kilo/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /admin/
+Disallow: /data/
+Disallow: /includes/
+Disallow: /submit-enquiry.php
+Disallow: /.kilo/
+
+# Model-training crawlers - NOT permitted for training (search visibility only)
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+# All other bots - public pages allowed, sensitive paths blocked
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /data/
+Disallow: /includes/
+Disallow: /submit-enquiry.php
+Disallow: /send-otp.php
+Disallow: /verify-otp.php
+Disallow: /login/
+Disallow: /private/
+Disallow: /.kilo/
+Disallow: *.pdf$
+
+# Sitemap location
+Sitemap: https://www.stxavierssiwan.com/sitemap.xml

@@ -1,0 +1,26 @@
+# St. Xavier's High School, Siwan
+
+Official website: https://www.stxavierssiwan.com/
+
+St. Xavier's High School is a CBSE-affiliated school located at Baishakhi, Siwan, Bihar, offering education from Nursery to Class 12 with a focus on academic excellence, values, and all-round student development.
+
+## Important pages
+- Home: https://www.stxavierssiwan.com/index.php
+- About: https://www.stxavierssiwan.com/about.php
+- Academics: https://www.stxavierssiwan.com/academics.php
+- Admissions: https://www.stxavierssiwan.com/admissions.php
+- Contact: https://www.stxavierssiwan.com/contact.php
+- FAQ: https://www.stxavierssiwan.com/faq.php
+- Facilities: https://www.stxavierssiwan.com/facilities.php
+- Gallery: https://www.stxavierssiwan.com/gallery.php
+- Blog: https://www.stxavierssiwan.com/blog.php
+- Leadership Messages: https://www.stxavierssiwan.com/messages.php
+- Mandatory Disclosure: https://www.stxavierssiwan.com/mandatory-disclosure.php
+
+## Contact
+- Phone: +91-8000800362, +91-8000800364, +91-8000800368
+- Email: stxavierssiwan@gmail.com
+- Address: Baishakhi, Siwan, Bihar, India
+
+## Sitemap
+- https://www.stxavierssiwan.com/sitemap.xml
